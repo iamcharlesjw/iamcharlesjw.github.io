@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MediaChange, MediaObserver } from '@angular/flex-layout';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
@@ -10,6 +12,9 @@ import { MatGridListModule } from '@angular/material/grid-list'
 
 @NgModule({
   imports: [
+    MediaChange,
+    MediaObserver,
+    BreakpointObserver,
     MatButtonModule,
     MatMenuModule,
     MatToolbarModule,
@@ -18,6 +23,9 @@ import { MatGridListModule } from '@angular/material/grid-list'
     MatGridListModule
   ],
   exports: [
+    MediaChange,
+    MediaObserver,
+    BreakpointObserver,
     MatButtonModule,
     MatMenuModule,
     MatToolbarModule,

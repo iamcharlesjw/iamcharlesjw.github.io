@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\code-portfolio",
+    "\\code-portfolio\\src",
+    "\\code-portfolio\\src\\app",
+    "\\code-portfolio\\src\\app\\about",
+    "\\code-portfolio\\src\\app\\modules",
+    "\\code-portfolio\\src\\app\\modules\\material",
+    "\\code-portfolio\\src\\app\\Navigation",
+    "\\code-portfolio\\src\\app\\Navigation\\footer",
+    "\\code-portfolio\\src\\app\\Navigation\\header"
+  ],
+  "SelectedNode": "\\code-portfolio\\src\\app\\about\\about.component.ts",
+  "PreviewInSolutionExplorer": false
+}
